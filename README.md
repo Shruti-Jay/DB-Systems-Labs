@@ -13,3 +13,9 @@ Each **flight** operates between two **airports**. Flights with the same number 
 During **check-in**, a **boarding pass** is issued, specifying a seat number. A passenger can check in only for flights included in their ticket. The flight-seat combination must be unique to prevent duplicate boarding passes.
 
 The number of **seats** and their distribution across classes is based on the **aircraft** model used for the flight. Each aircraft model has a single cabin configuration. The database schema does not enforce seat validation for boarding passes; this can be done using triggers or at the application level.
+
+
+**QUERIES LAB REPORT**
+
+**DESCRIPTION**
+This report contains the work completed for a lab involving the analysis of bike station and trip data from NiceRide in Minneapolis, MN, for the years 2020 and 2021. The tasks included importing the data into a PostgreSQL database, creating hash and btree indexes on tables, and analyzing query plans and execution times. The lab also focused on understanding different types of joins and running index-only plans to optimize query performance.
